@@ -1,0 +1,634 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "sourcePriority": [
+      "강사님들 강조 내용.pdf",
+      "1, 2주차 예상문제.pdf",
+      "PLAN_FINAL.md",
+      "PLAN.md"
+    ],
+    "generatedFrom": [
+      "/Users/jamesy/Documents/Study/1stExam/PLAN_FINAL.md"
+    ]
+  },
+  "categories": [
+    {
+      "id": "CAT-A",
+      "name": "VC 법규/조합 구조"
+    },
+    {
+      "id": "CAT-B",
+      "name": "투자계약/우선주/실무"
+    },
+    {
+      "id": "CAT-C",
+      "name": "재무/회계"
+    },
+    {
+      "id": "CAT-D",
+      "name": "밸류에이션/계산형"
+    },
+    {
+      "id": "CAT-E",
+      "name": "VC 본질/투자판단"
+    },
+    {
+      "id": "CAT-F",
+      "name": "산업별 핵심"
+    }
+  ],
+  "confirmedMentionTopics": [
+    "A-12",
+    "A-13",
+    "A-14",
+    "A-15",
+    "A-16",
+    "A-17",
+    "A-18",
+    "A-19",
+    "A-20"
+  ],
+  "flashcards": [
+    {
+      "id": "A-01",
+      "categoryId": "CAT-A",
+      "title": "VC 4유형 설립 근거와 자본금",
+      "question": "벤처투자회사, LLC형 VC, 신기술금융회사, 액셀러레이터의 설립 근거와 자본금은?",
+      "answer": "벤처투자회사 20억 / LLC형 VC 결성총액 1% 이상 / 신기사 100억 / 액셀러레이터 1억",
+      "summary": "자본금 문제의 기준축",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "cardType": "fact",
+      "difficulty": "easy",
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-highlight",
+          "priority": 1
+        },
+        {
+          "sourceId": "pdf-week1-2",
+          "priority": 1
+        },
+        {
+          "sourceId": "plan-final",
+          "priority": 2
+        }
+      ],
+      "quizRefs": [
+        "Q1-01"
+      ]
+    },
+    {
+      "id": "A-12",
+      "categoryId": "CAT-A",
+      "title": "벤처투자조합의 성립일",
+      "question": "벤처투자조합의 성립일은 언제인가?",
+      "answer": "등록한 날",
+      "summary": "출자약정일이나 결성총회일이 아니라 중기부 등록일 기준",
+      "tags": [
+        "출제확정",
+        "언급된 문제",
+        "함정주의"
+      ],
+      "cardType": "trap",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        },
+        {
+          "sourceId": "plan-final",
+          "priority": 2
+        }
+      ],
+      "quizRefs": [
+        "Q1-09"
+      ]
+    },
+    {
+      "id": "A-13",
+      "categoryId": "CAT-A",
+      "title": "GP 자산운용 중단 가능 여부",
+      "question": "업무집행조합원의 자산운용은 중단될 수 있는가?",
+      "answer": "있다",
+      "summary": "대표펀드매니저 퇴사 또는 GP 문제 발생 시 특별결의로 중단 가능",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "cardType": "concept",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q1-10"
+      ]
+    },
+    {
+      "id": "A-14",
+      "categoryId": "CAT-A",
+      "title": "겸직의 정의",
+      "question": "운용인력의 외부 겸직은 실무상 무엇으로 판단하는가?",
+      "answer": "4대보험 중복 가입 또는 정기적 급여 수령",
+      "summary": "직함보다 실질 기준으로 판단",
+      "tags": [
+        "출제확정"
+      ],
+      "cardType": "fact",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q4-11"
+      ]
+    },
+    {
+      "id": "A-15",
+      "categoryId": "CAT-A",
+      "title": "규약 변경 방법",
+      "question": "벤처투자조합 규약은 어떻게 변경하는가?",
+      "answer": "조합원 총회 특별결의 또는 서면 전원 동의",
+      "summary": "일반결의가 아니라 특별결의가 원칙",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "cardType": "process",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q1-11"
+      ]
+    },
+    {
+      "id": "A-16",
+      "categoryId": "CAT-A",
+      "title": "미투자자산 관리보수",
+      "question": "미투자자산에 대해 관리보수를 지급하는가?",
+      "answer": "지급하지 않음",
+      "summary": "관리보수는 투자 집행된 자산 기준",
+      "tags": [
+        "출제확정"
+      ],
+      "cardType": "trap",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q4-12"
+      ]
+    },
+    {
+      "id": "A-17",
+      "categoryId": "CAT-A",
+      "title": "조합재산 분별관리 의무",
+      "question": "GP는 조합재산과 다른 재산을 구분하여 관리해야 하는가?",
+      "answer": "구분하여야 함",
+      "summary": "고유재산 및 다른 펀드 재산과 분리 관리",
+      "tags": [
+        "출제확정"
+      ],
+      "cardType": "fact",
+      "difficulty": "easy",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q1-12"
+      ]
+    },
+    {
+      "id": "A-18",
+      "categoryId": "CAT-A",
+      "title": "조합재산 담보 제공",
+      "question": "조합재산을 담보로 제공할 수 있는가?",
+      "answer": "금지",
+      "summary": "일반적인 조합규약에서 명시적으로 금지",
+      "tags": [
+        "출제확정"
+      ],
+      "cardType": "fact",
+      "difficulty": "easy",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q1-13"
+      ]
+    },
+    {
+      "id": "A-19",
+      "categoryId": "CAT-A",
+      "title": "투자금 사용처 실사 의무",
+      "question": "투자금 사용처에 대한 실사 의무 규정이 있는가?",
+      "answer": "있다",
+      "summary": "집행 후 소진율 기준 실사와 결과 보고 의무",
+      "tags": [
+        "출제확정"
+      ],
+      "cardType": "concept",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q4-13"
+      ]
+    },
+    {
+      "id": "A-20",
+      "categoryId": "CAT-A",
+      "title": "핵심 운용인력 변경 시 관리보수",
+      "question": "대표펀드매니저 등 핵심 운용인력이 변경되면 관리보수는 어떻게 처리되는가?",
+      "answer": "특별결의에 따라 당해연도 관리보수의 일정 비율 내에서 삭감 가능",
+      "summary": "대펀 변경은 GP에 대한 핵심 제재 포인트",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "cardType": "concept",
+      "difficulty": "medium",
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1,
+          "note": "멘션된 확정문제"
+        }
+      ],
+      "quizRefs": [
+        "Q4-14"
+      ]
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "Q1-01",
+      "linkedFlashcardId": "A-01",
+      "type": "single",
+      "prompt": "벤처투자회사(창투사)의 설립 자본금은?",
+      "difficulty": "easy",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "options": [
+        {
+          "id": "1",
+          "text": "1억 원",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "text": "10억 원",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "20억 원",
+          "isCorrect": true
+        },
+        {
+          "id": "4",
+          "text": "100억 원",
+          "isCorrect": false
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "pdf-week1-2",
+          "priority": 1
+        }
+      ],
+      "explanation": "과거 100억에서 현재 20억으로 하향된 포인트가 핵심이다.",
+      "uiHint": "강사님 강조"
+    },
+    {
+      "id": "Q1-09",
+      "linkedFlashcardId": "A-12",
+      "type": "ox",
+      "prompt": "벤처투자조합의 성립일은 출자약정일 또는 결성총회일이다.",
+      "correctAnswerText": "X",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정",
+        "함정주의"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "조합의 성립일은 등록한 날이다.",
+      "uiHint": "함정주의"
+    },
+    {
+      "id": "Q1-10",
+      "linkedFlashcardId": "A-13",
+      "type": "ox",
+      "prompt": "업무집행조합원의 자산운용은 일단 시작되면 조합원 특별결의로도 중단시킬 수 없다.",
+      "correctAnswerText": "X",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "대표펀드매니저 퇴사 또는 GP 문제 발생 시 특별결의로 중단 가능하다.",
+      "uiHint": "족집게"
+    },
+    {
+      "id": "Q1-11",
+      "linkedFlashcardId": "A-15",
+      "type": "single",
+      "prompt": "벤처투자조합 규약 변경 방법으로 옳은 것은?",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "options": [
+        {
+          "id": "1",
+          "text": "GP 단독 결정",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "text": "조합원 총회 일반결의",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "조합원 총회 특별결의 또는 서면 전원 동의",
+          "isCorrect": true
+        },
+        {
+          "id": "4",
+          "text": "대표펀드매니저 승인만으로 변경",
+          "isCorrect": false
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "일반결의가 아니라 특별결의가 원칙이며, 총회 미개최 시 서면 동의로 갈음 가능하다.",
+      "uiHint": "강사님 강조"
+    },
+    {
+      "id": "Q1-12",
+      "linkedFlashcardId": "A-17",
+      "type": "ox",
+      "prompt": "GP는 조합재산을 고유재산 또는 다른 펀드 재산과 구분하여 관리해야 한다.",
+      "correctAnswerText": "O",
+      "difficulty": "easy",
+      "tags": [
+        "출제확정"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "조합재산에는 분별관리 의무가 있다.",
+      "uiHint": "기본기"
+    },
+    {
+      "id": "Q1-13",
+      "linkedFlashcardId": "A-18",
+      "type": "ox",
+      "prompt": "일반적인 벤처투자조합 규약은 조합재산의 담보 제공을 허용한다.",
+      "correctAnswerText": "X",
+      "difficulty": "easy",
+      "tags": [
+        "출제확정"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "일반적인 조합규약은 조합재산의 담보 제공을 금지한다.",
+      "uiHint": "함정주의"
+    },
+    {
+      "id": "Q4-11",
+      "linkedFlashcardId": "A-14",
+      "type": "single",
+      "prompt": "운용인력의 외부 겸직 여부를 실질적으로 판단하는 기준으로 가장 적절한 것은?",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정"
+      ],
+      "options": [
+        {
+          "id": "1",
+          "text": "명함상 직함 보유 여부",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "text": "외부 회사 소개 페이지 노출 여부",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "4대보험 중복 가입 또는 정기적 급여 수령 여부",
+          "isCorrect": true
+        },
+        {
+          "id": "4",
+          "text": "외부 회의 참석 횟수",
+          "isCorrect": false
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "겸직은 형식적 직함보다 4대보험 중복 가입과 정기적 급여 수령 사실로 판단한다.",
+      "uiHint": "실무형"
+    },
+    {
+      "id": "Q4-12",
+      "linkedFlashcardId": "A-16",
+      "type": "ox",
+      "prompt": "미투자자산을 상장사 등에 운용하고 있더라도 그 부분에 대해 별도 관리보수가 발생한다.",
+      "correctAnswerText": "X",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정",
+        "함정주의"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "관리보수는 투자 집행된 자산 기준으로만 산정되므로 미투자자산에는 발생하지 않는다.",
+      "uiHint": "함정주의"
+    },
+    {
+      "id": "Q4-13",
+      "linkedFlashcardId": "A-19",
+      "type": "ox",
+      "prompt": "투자금 사용처에 대한 실사 의무는 조합 사후관리 체계에서 별도로 규정될 수 있다.",
+      "correctAnswerText": "O",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정"
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "회계법인 등이 투자금 집행 후 1년 내 소진율 등을 기준으로 실사하고, 결과를 조합 측에 보고한다.",
+      "uiHint": "실무형"
+    },
+    {
+      "id": "Q4-14",
+      "linkedFlashcardId": "A-20",
+      "type": "single",
+      "prompt": "대표펀드매니저 등 핵심 운용인력이 변경될 때 표준적으로 들어가는 제재로 가장 적절한 것은?",
+      "difficulty": "medium",
+      "tags": [
+        "출제확정",
+        "언급된 문제"
+      ],
+      "options": [
+        {
+          "id": "1",
+          "text": "자동 해산",
+          "isCorrect": false
+        },
+        {
+          "id": "2",
+          "text": "전 LP의 출자 의무 즉시 종료",
+          "isCorrect": false
+        },
+        {
+          "id": "3",
+          "text": "특별결의에 따른 당해연도 관리보수 일부 삭감",
+          "isCorrect": true
+        },
+        {
+          "id": "4",
+          "text": "모든 투자 계약 자동 무효",
+          "isCorrect": false
+        }
+      ],
+      "sourceRefs": [
+        {
+          "sourceId": "user-direct-note",
+          "priority": 1
+        }
+      ],
+      "explanation": "핵심 운용인력 변경은 GP 입장에서 큰 제재 포인트이며, 표준적으로 관리보수 삭감 규정이 들어간다.",
+      "uiHint": "강사님 강조"
+    }
+  ],
+  "quizRounds": [
+    {
+      "id": "ROUND-1",
+      "title": "법규/조합 OX 집중",
+      "focus": [
+        "조합 구조",
+        "행위 제한",
+        "규약 실무"
+      ],
+      "questionIds": [
+        "Q1-01",
+        "Q1-09",
+        "Q1-10",
+        "Q1-11",
+        "Q1-12",
+        "Q1-13"
+      ]
+    },
+    {
+      "id": "ROUND-2",
+      "title": "재무/회계/계산 집중",
+      "focus": [
+        "재무제표",
+        "법인세",
+        "밸류에이션"
+      ],
+      "questionIds": []
+    },
+    {
+      "id": "ROUND-3",
+      "title": "VC 본질/투자판단/회수",
+      "focus": [
+        "VC 개념",
+        "투자 판단",
+        "회수"
+      ],
+      "questionIds": []
+    },
+    {
+      "id": "ROUND-4",
+      "title": "산업별/계약형 종합",
+      "focus": [
+        "산업별 핵심",
+        "계약/운용 실무"
+      ],
+      "questionIds": [
+        "Q4-11",
+        "Q4-12",
+        "Q4-13",
+        "Q4-14"
+      ]
+    }
+  ]
+}

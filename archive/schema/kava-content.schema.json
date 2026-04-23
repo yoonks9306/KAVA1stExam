@@ -1,0 +1,321 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.study/1stExam/schema/kava-content.schema.json",
+  "title": "KAVA 12th 3rd Exam Content Schema",
+  "type": "object",
+  "required": [
+    "meta",
+    "enums",
+    "flashcards",
+    "quizRounds"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "version",
+        "sourcePriority",
+        "generatedFrom"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "sourcePriority": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "generatedFrom": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "enums": {
+      "type": "object",
+      "required": [
+        "tags",
+        "cardTypes",
+        "quizTypes",
+        "difficulty"
+      ],
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "출제확정",
+              "언급된 문제",
+              "반복강조",
+              "보조",
+              "함정주의",
+              "계산형",
+              "OX",
+              "산업형"
+            ]
+          }
+        },
+        "cardTypes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "fact",
+              "concept",
+              "formula",
+              "process",
+              "comparison",
+              "trap"
+            ]
+          }
+        },
+        "quizTypes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "single",
+              "ox",
+              "multi",
+              "calculation"
+            ]
+          }
+        },
+        "difficulty": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "easy",
+              "medium",
+              "hard"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "flashcards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/flashcard"
+      }
+    },
+    "quizRounds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/quizRound"
+      }
+    }
+  },
+  "$defs": {
+    "sourceRef": {
+      "type": "object",
+      "required": [
+        "sourceId",
+        "priority"
+      ],
+      "properties": {
+        "sourceId": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "flashcard": {
+      "type": "object",
+      "required": [
+        "id",
+        "categoryId",
+        "title",
+        "question",
+        "answer",
+        "summary",
+        "tags",
+        "cardType",
+        "difficulty",
+        "sourceRefs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-F]-\\d{2}$"
+        },
+        "categoryId": {
+          "type": "string",
+          "enum": [
+            "CAT-A",
+            "CAT-B",
+            "CAT-C",
+            "CAT-D",
+            "CAT-E",
+            "CAT-F"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "answer": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "cardType": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          },
+          "minItems": 1
+        },
+        "quizRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "quizOption": {
+      "type": "object",
+      "required": [
+        "id",
+        "text",
+        "isCorrect"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "isCorrect": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "quizQuestion": {
+      "type": "object",
+      "required": [
+        "id",
+        "linkedFlashcardId",
+        "type",
+        "prompt",
+        "difficulty",
+        "tags",
+        "sourceRefs",
+        "explanation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^Q[1-4]-\\d{2}$"
+        },
+        "linkedFlashcardId": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "prompt": {
+          "type": "string"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/quizOption"
+          }
+        },
+        "correctAnswerText": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "uiHint": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "quizRound": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "focus",
+        "questionIds"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ROUND-[1-4]$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "focus": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "questionIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
