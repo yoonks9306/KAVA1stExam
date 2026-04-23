@@ -20,7 +20,8 @@ const state = {
   showAnswer: false,
   selectedRoundId: quizRounds[0]?.id ?? null,
   quizQuestionIndex: 0,
-  selectedAnswer: null
+  selectedAnswer: null,
+  quizOrders: {}
 };
 
 function escapeHtml(value) {
@@ -52,13 +53,32 @@ function getCurrentCard() {
   return cards[state.cardIndex] ?? null;
 }
 
-function getQuestionsForRound(roundId) {
+function shuffleArray(items) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function getBaseQuestionsForRound(roundId) {
   const round = quizRounds.find((item) => item.id === roundId);
   if (!round) return [];
   const order = new Map(round.questionIds.map((id, index) => [id, index]));
   return quizQuestions
     .filter((question) => order.has(question.id))
     .sort((a, b) => order.get(a.id) - order.get(b.id));
+}
+
+function getQuestionsForRound(roundId) {
+  const questions = getBaseQuestionsForRound(roundId);
+  if (!state.quizOrders[roundId]) {
+    state.quizOrders[roundId] = shuffleArray(questions.map((question) => question.id));
+  }
+
+  const questionsById = new Map(questions.map((question) => [question.id, question]));
+  return state.quizOrders[roundId].map((id) => questionsById.get(id)).filter(Boolean);
 }
 
 function getCurrentQuestion() {
@@ -79,7 +99,10 @@ function pickFeedback(isCorrect) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function resetQuizState() {
+function resetQuizState({ reshuffle = false } = {}) {
+  if (reshuffle && state.selectedRoundId) {
+    delete state.quizOrders[state.selectedRoundId];
+  }
   state.quizQuestionIndex = 0;
   state.selectedAnswer = null;
 }
@@ -398,7 +421,7 @@ app.addEventListener("click", (event) => {
     return;
   }
   if (action === "reset-round") {
-    resetQuizState();
+    resetQuizState({ reshuffle: true });
     state.screen = "quiz";
     window.location.hash = "quiz";
     render();
@@ -419,7 +442,7 @@ app.addEventListener("change", (event) => {
 
   if (action === "change-round") {
     state.selectedRoundId = target.value;
-    resetQuizState();
+    resetQuizState({ reshuffle: true });
     render();
   }
 });
