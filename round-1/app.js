@@ -1,4 +1,4 @@
-import { flashcards, quizQuestions, quizRounds, meta } from "../generated/index.js";
+import { flashcards, quizQuestions, quizRounds } from "../generated/index.js";
 
 const app = document.getElementById("app");
 
@@ -90,13 +90,6 @@ function getCorrectAnswerLabel(question) {
   if (question.type === "ox") return question.answer;
   const option = question.options?.find((item) => item.id === question.answer);
   return option ? `${option.id}. ${option.text}` : question.answer;
-}
-
-function pickFeedback(isCorrect) {
-  const key = isCorrect ? "정답 피드백" : "오답 피드백";
-  const pool = meta.uiCopy[key] ?? [];
-  if (!pool.length) return "";
-  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 function resetQuizState({ reshuffle = false } = {}) {
@@ -220,9 +213,7 @@ function renderQuiz() {
   const isAnswered = state.selectedAnswer !== null;
   const isCorrect = isAnswered && state.selectedAnswer === question.answer;
   const isLastQuestion = state.quizQuestionIndex >= questions.length - 1;
-  const feedbackCopy = isAnswered
-    ? `${pickFeedback(isCorrect)}\n\n정답: ${getCorrectAnswerLabel(question)}\n\n${question.explanation}`
-    : "";
+  const feedbackCopy = isAnswered ? `정답: ${getCorrectAnswerLabel(question)}\n\n${question.explanation}` : "";
 
   const optionsMarkup =
     question.type === "ox"
@@ -293,8 +284,8 @@ function renderQuiz() {
       ${
         isAnswered
           ? `
-            <div class="feedback ${isCorrect ? "is-correct" : "is-wrong"}">
-              <div class="feedback-title">${isCorrect ? "정답입니다" : "조금만 더 보시면 됩니다"}</div>
+            <div class="feedback">
+              <div class="feedback-title">정답 및 해설</div>
               <div class="feedback-copy">${nlToBr(feedbackCopy)}</div>
             </div>
           `
