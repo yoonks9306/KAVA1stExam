@@ -78,7 +78,7 @@ export const quizRounds = [
   },
   {
     "id": "round-5",
-    "title": "Round-5 | 이후영님 정리 기출문제",
+    "title": "ROUND-5 | 이후영님 정리 기출문제",
     "questionIds": [
       "Q5-001",
       "Q5-002",
@@ -1677,9 +1677,7 @@ export const quizQuestions = [
     "roundId": "round-5",
     "type": "single",
     "tags": [
-      "이후영정리",
-      "출제최상위",
-      "산업형"
+      "출제최상위"
     ],
     "difficulty": "easy",
     "prompt": "다음 중 무탄소 에너지(Carbon Free Energy, CFE)에는 포함되지만, 재생에너지(Renewable Energy)에는 포함되지 않는 에너지원은?",
