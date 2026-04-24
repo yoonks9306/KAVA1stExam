@@ -5,7 +5,6 @@
 ## Q5-001 | IY-001
 
 - type: single
-- tags: 출제최상위
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -31,7 +30,6 @@ UI Hint.
 ## Q5-002 | IY-002
 
 - type: single
-- tags: 이후영정리, 출제최상위, 산업형
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -57,7 +55,6 @@ UI Hint.
 ## Q5-003 | IY-003
 
 - type: single
-- tags: 이후영정리, 출제최상위, 함정주의
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -83,7 +80,6 @@ UI Hint.
 ## Q5-004 | IY-004
 
 - type: ox
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -103,7 +99,6 @@ UI Hint.
 ## Q5-005 | IY-005
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -129,7 +124,6 @@ UI Hint.
 ## Q5-006 | IY-006
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -149,7 +143,6 @@ UI Hint.
 ## Q5-007 | IY-007
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -175,7 +168,6 @@ UI Hint.
 ## Q5-008 | IY-008
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -195,7 +187,6 @@ UI Hint.
 ## Q5-009 | IY-009
 
 - type: single
-- tags: 이후영정리, 산업형
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -221,7 +212,6 @@ UI Hint.
 ## Q5-010 | IY-010
 
 - type: single
-- tags: 이후영정리, 산업형
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -247,7 +237,6 @@ UI Hint.
 ## Q5-011 | IY-011
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -267,7 +256,6 @@ UI Hint.
 ## Q5-012 | IY-012
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -293,7 +281,6 @@ UI Hint.
 ## Q5-013 | IY-013
 
 - type: ox
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: 신재생에너지 및 기후테크 관련 산업과 투자 사례
@@ -313,7 +300,6 @@ UI Hint.
 ## Q5-014 | IY-014
 
 - type: single
-- tags: 이후영정리, 출제최상위, 숫자암기
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -339,7 +325,6 @@ UI Hint.
 ## Q5-015 | IY-015
 
 - type: single
-- tags: 이후영정리, 출제최상위, 실무형
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -365,7 +350,6 @@ UI Hint.
 ## Q5-016 | IY-016
 
 - type: single
-- tags: 이후영정리, 출제최상위, 숫자암기
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -391,7 +375,6 @@ UI Hint.
 ## Q5-017 | IY-017
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -417,7 +400,6 @@ UI Hint.
 ## Q5-018 | IY-018
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -443,7 +425,6 @@ UI Hint.
 ## Q5-019 | IY-019
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -463,7 +444,6 @@ UI Hint.
 ## Q5-020 | IY-020
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -489,7 +469,6 @@ UI Hint.
 ## Q5-021 | IY-021
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -515,7 +494,6 @@ UI Hint.
 ## Q5-022 | IY-022
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -541,7 +519,6 @@ UI Hint.
 ## Q5-023 | IY-023
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -567,7 +544,6 @@ UI Hint.
 ## Q5-024 | IY-024
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -593,7 +569,6 @@ UI Hint.
 ## Q5-025 | IY-025
 
 - type: single
-- tags: 이후영정리, 계산형
 - difficulty: easy
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -619,7 +594,6 @@ UI Hint.
 ## Q5-026 | IY-026
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260420 월요일 2강
 - lecture: PEF(기관전용 사모집합투자기구) 정리
@@ -645,7 +619,6 @@ UI Hint.
 ## Q5-027 | IY-027
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -671,7 +644,6 @@ UI Hint.
 ## Q5-028 | IY-028
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -697,7 +669,6 @@ UI Hint.
 ## Q5-029 | IY-029
 
 - type: single
-- tags: 이후영정리, 출제최상위, 실무형
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -723,7 +694,6 @@ UI Hint.
 ## Q5-030 | IY-030
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -749,7 +719,6 @@ UI Hint.
 ## Q5-031 | IY-031
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -775,7 +744,6 @@ UI Hint.
 ## Q5-032 | IY-032
 
 - type: ox
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -795,7 +763,6 @@ UI Hint.
 ## Q5-033 | IY-033
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -821,7 +788,6 @@ UI Hint.
 ## Q5-034 | IY-034
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -847,7 +813,6 @@ UI Hint.
 ## Q5-035 | IY-035
 
 - type: single
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -873,7 +838,6 @@ UI Hint.
 ## Q5-036 | IY-036
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -899,7 +863,6 @@ UI Hint.
 ## Q5-037 | IY-037
 
 - type: ox
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -919,7 +882,6 @@ UI Hint.
 ## Q5-038 | IY-038
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -945,7 +907,6 @@ UI Hint.
 ## Q5-039 | IY-039
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 1강
 - lecture: IP 기반 투자 정리
@@ -971,7 +932,6 @@ UI Hint.
 ## Q5-040 | IY-040
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -997,7 +957,6 @@ UI Hint.
 ## Q5-041 | IY-041
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1023,7 +982,6 @@ UI Hint.
 ## Q5-042 | IY-042
 
 - type: single
-- tags: 이후영정리, 출제최상위, 함정주의
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1049,7 +1007,6 @@ UI Hint.
 ## Q5-043 | IY-043
 
 - type: ox
-- tags: 이후영정리
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1069,7 +1026,6 @@ UI Hint.
 ## Q5-044 | IY-044
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: easy
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1095,7 +1051,6 @@ UI Hint.
 ## Q5-045 | IY-045
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1121,7 +1076,6 @@ UI Hint.
 ## Q5-046 | IY-046
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1141,7 +1095,6 @@ UI Hint.
 ## Q5-047 | IY-047
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1167,7 +1120,6 @@ UI Hint.
 ## Q5-048 | IY-048
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1187,7 +1139,6 @@ UI Hint.
 ## Q5-049 | IY-049
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1213,7 +1164,6 @@ UI Hint.
 ## Q5-050 | IY-050
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1239,7 +1189,6 @@ UI Hint.
 ## Q5-051 | IY-051
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1259,7 +1208,6 @@ UI Hint.
 ## Q5-052 | IY-052
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260421 화요일 2강
 - lecture: 딜소싱 방법과 구조의 이해
@@ -1285,7 +1233,6 @@ UI Hint.
 ## Q5-053 | IY-053
 
 - type: single
-- tags: 이후영정리, 출제최상위, 실무형
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1311,7 +1258,6 @@ UI Hint.
 ## Q5-054 | IY-054
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: hard
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1337,7 +1283,6 @@ UI Hint.
 ## Q5-055 | IY-055
 
 - type: single
-- tags: 이후영정리, 출제최상위, 숫자암기
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1363,7 +1308,6 @@ UI Hint.
 ## Q5-056 | IY-056
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1389,7 +1333,6 @@ UI Hint.
 ## Q5-057 | IY-057
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1415,7 +1358,6 @@ UI Hint.
 ## Q5-058 | IY-058
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1441,7 +1383,6 @@ UI Hint.
 ## Q5-059 | IY-059
 
 - type: ox
-- tags: 이후영정리
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1461,7 +1402,6 @@ UI Hint.
 ## Q5-060 | IY-060
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1487,7 +1427,6 @@ UI Hint.
 ## Q5-061 | IY-061
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1513,7 +1452,6 @@ UI Hint.
 ## Q5-062 | IY-062
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1539,7 +1477,6 @@ UI Hint.
 ## Q5-063 | IY-063
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1565,7 +1502,6 @@ UI Hint.
 ## Q5-064 | IY-064
 
 - type: single
-- tags: 이후영정리, 실무형
 - difficulty: easy
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1591,7 +1527,6 @@ UI Hint.
 ## Q5-065 | IY-065
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260422 수요일 1강
 - lecture: 회사 제도 일반 정리
@@ -1617,7 +1552,6 @@ UI Hint.
 ## Q5-066 | IY-066
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: easy
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1643,7 +1577,6 @@ UI Hint.
 ## Q5-067 | IY-067
 
 - type: single
-- tags: 이후영정리, 출제최상위, 함정주의
 - difficulty: hard
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1669,7 +1602,6 @@ UI Hint.
 ## Q5-068 | IY-068
 
 - type: single
-- tags: 이후영정리, 출제최상위, 실무형
 - difficulty: hard
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1695,7 +1627,6 @@ UI Hint.
 ## Q5-069 | IY-069
 
 - type: ox
-- tags: 이후영정리
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1715,7 +1646,6 @@ UI Hint.
 ## Q5-070 | IY-070
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1741,7 +1671,6 @@ UI Hint.
 ## Q5-071 | IY-071
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1761,7 +1690,6 @@ UI Hint.
 ## Q5-072 | IY-072
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1787,7 +1715,6 @@ UI Hint.
 ## Q5-073 | IY-073
 
 - type: ox
-- tags: 이후영정리
 - difficulty: easy
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1807,7 +1734,6 @@ UI Hint.
 ## Q5-074 | IY-074
 
 - type: single
-- tags: 이후영정리, 계산형
 - difficulty: easy
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1833,7 +1759,6 @@ UI Hint.
 ## Q5-075 | IY-075
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1859,7 +1784,6 @@ UI Hint.
 ## Q5-076 | IY-076
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1879,7 +1803,6 @@ UI Hint.
 ## Q5-077 | IY-077
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1905,7 +1828,6 @@ UI Hint.
 ## Q5-078 | IY-078
 
 - type: single
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260422 수요일 2강
 - lecture: 투자자로서 알아야 할 등기 실무
@@ -1931,7 +1853,6 @@ UI Hint.
 ## Q5-079 | IY-079
 
 - type: single
-- tags: 이후영정리, 숫자암기
 - difficulty: easy
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -1957,7 +1878,6 @@ UI Hint.
 ## Q5-080 | IY-080
 
 - type: ox
-- tags: 이후영정리
 - difficulty: medium
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -1977,7 +1897,6 @@ UI Hint.
 ## Q5-081 | IY-081
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2003,7 +1922,6 @@ UI Hint.
 ## Q5-082 | IY-082
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2029,7 +1947,6 @@ UI Hint.
 ## Q5-083 | IY-083
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2049,7 +1966,6 @@ UI Hint.
 ## Q5-084 | IY-084
 
 - type: ox
-- tags: 이후영정리
 - difficulty: easy
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2069,7 +1985,6 @@ UI Hint.
 ## Q5-085 | IY-085
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2089,7 +2004,6 @@ UI Hint.
 ## Q5-086 | IY-086
 
 - type: ox
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2109,7 +2023,6 @@ UI Hint.
 ## Q5-087 | IY-087
 
 - type: ox
-- tags: 이후영정리
 - difficulty: medium
 - source: 260423 목요일 1강
 - lecture: 벤처투자조합 출제 문제
@@ -2129,7 +2042,6 @@ UI Hint.
 ## Q5-088 | IY-088
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2155,7 +2067,6 @@ UI Hint.
 ## Q5-089 | IY-089
 
 - type: ox
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2175,7 +2086,6 @@ UI Hint.
 ## Q5-090 | IY-090
 
 - type: single
-- tags: 이후영정리, 출제최상위
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2201,7 +2111,6 @@ UI Hint.
 ## Q5-091 | IY-091
 
 - type: ox
-- tags: 이후영정리
 - difficulty: easy
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2221,7 +2130,6 @@ UI Hint.
 ## Q5-092 | IY-092
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2247,7 +2155,6 @@ UI Hint.
 ## Q5-093 | IY-093
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2267,7 +2174,6 @@ UI Hint.
 ## Q5-094 | IY-094
 
 - type: single
-- tags: 이후영정리, 실무형
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2293,7 +2199,6 @@ UI Hint.
 ## Q5-095 | IY-095
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: easy
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2313,7 +2218,6 @@ UI Hint.
 ## Q5-096 | IY-096
 
 - type: single
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2339,7 +2243,6 @@ UI Hint.
 ## Q5-097 | IY-097
 
 - type: ox
-- tags: 이후영정리, 숫자암기
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2359,7 +2262,6 @@ UI Hint.
 ## Q5-098 | IY-098
 
 - type: single
-- tags: 이후영정리
 - difficulty: easy
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2385,7 +2287,6 @@ UI Hint.
 ## Q5-099 | IY-099
 
 - type: ox
-- tags: 이후영정리, 함정주의
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점
@@ -2405,7 +2306,6 @@ UI Hint.
 ## Q5-100 | IY-100
 
 - type: single
-- tags: 이후영정리
 - difficulty: medium
 - source: 260423 목요일 2강
 - lecture: 주식거래 실무 관련 법률적 쟁점

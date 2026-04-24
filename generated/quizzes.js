@@ -1676,9 +1676,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-001",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "다음 중 무탄소 에너지(Carbon Free Energy, CFE)에는 포함되지만, 재생에너지(Renewable Energy)에는 포함되지 않는 에너지원은?",
     "answer": "3",
@@ -1712,11 +1710,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-002",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "산업형"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "기후테크(Climate Tech)의 5대 분류에 해당하지 않는 것은?",
     "answer": "3",
@@ -1750,11 +1744,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-003",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "다음 중 기후테크 투자의 공통 리스크 4가지에 해당하지 않는 것은?",
     "answer": "4",
@@ -1788,10 +1778,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-004",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "공정거래법상 CVC는 지주회사가 지분 100%를 보유해야 하며, 모든 펀드의 60% 이상을 지주회사 또는 그 계열사가 출자해야 한다.",
     "answer": "O",
@@ -1803,9 +1790,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-005",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "다음 중 VUCA의 구성 요소가 아닌 것은?",
     "answer": "4",
@@ -1839,10 +1824,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-006",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "2차전지는 에너지를 직접 생산하는 신재생에너지원에 해당한다.",
     "answer": "X",
@@ -1854,9 +1836,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-007",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "VC 투자의 3대 판단 기준으로 가장 적절한 것은?",
     "answer": "2",
@@ -1890,10 +1870,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-008",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "MVP(Minimum Viable Product) 전략은 제품의 완성도를 최대한 높인 뒤 시장에 출시하는 전략이다.",
     "answer": "X",
@@ -1905,10 +1882,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-009",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "산업형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "2001년 맥킨지가 중국 정부에 제공한 컨설팅의 핵심 권고 사항은 무엇인가?",
     "answer": "3",
@@ -1942,10 +1916,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-010",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "산업형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "휴머노이드 산업이 자동차 부품 산업의 연장선으로 평가되는 이유로 가장 적절한 것은?",
     "answer": "2",
@@ -1979,10 +1950,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-011",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "LFP 배터리의 핵심 원료인 인(P)은 전 세계적으로 공급망이 분산되어 있어 한국 기업의 LFP 전환이 용이하다.",
     "answer": "X",
@@ -1994,10 +1962,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-012",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "기후테크 투자의 공통 리스크 4가지에 포함되지 않는 것은?",
     "answer": "4",
@@ -2031,10 +1996,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-013",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "VC 업계에서 프론트 오피스(심사역)보다 백 오피스(전략관리본부)가 조직 관점에서 더 중요한 기능을 담당한다.",
     "answer": "O",
@@ -2046,11 +2008,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-014",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "PEF 투자자 수 제한에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -2084,11 +2042,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-015",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "PEF의 대출 가능 여부에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -2122,11 +2076,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-016",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "PEF가 SPC를 활용할 경우 차입 한도에 관한 설명으로 옳은 것은?",
     "answer": "3",
@@ -2160,9 +2110,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-017",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "PEF의 국문 정식 명칭은?",
     "answer": "3",
@@ -2196,9 +2144,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-018",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "벤처조합과 PEF의 법적 실체에 관한 설명으로 옳은 것은?",
     "answer": "3",
@@ -2232,10 +2178,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-019",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "기관전용 사모펀드인 PEF에 개인투자자 1명이라도 출자하면 일반 사모펀드로 분류된다.",
     "answer": "O",
@@ -2247,9 +2190,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-020",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "벤처펀드 출자자의 세제 혜택에 관한 설명으로 옳은 것은?",
     "answer": "1",
@@ -2283,10 +2224,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-021",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "SPC 차입의 주요 효과가 아닌 것은?",
     "answer": "4",
@@ -2320,9 +2258,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-022",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "기업재무안정 PEF의 주된 투자 대상은?",
     "answer": "2",
@@ -2356,10 +2292,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-023",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "CB 발행 시 최초 발행가 대비 전환가격의 하향 조정(Refixing) 한도는?",
     "answer": "2",
@@ -2393,10 +2326,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-024",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "PEF의 바이아웃 전략과 그로스 에쿼티 전략의 차이에 관한 설명으로 옳지 않은 것은?",
     "answer": "3",
@@ -2430,10 +2360,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-025",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "계산형"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "EBITDA가 40억 원인 회사를 420억 원에 인수할 경우 EBITDA 멀티플은?",
     "answer": "3",
@@ -2467,9 +2394,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-026",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "우선매수권에 관한 용어로 ROFO와 ROFR의 차이에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -2503,10 +2428,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-027",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "특허 가치평가의 세 가지 접근법에 해당하지 않는 것은?",
     "answer": "4",
@@ -2540,10 +2462,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-028",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "IP 금융(IP Finance)의 대표적인 세 가지 형태로 옳은 것은?",
     "answer": "1",
@@ -2577,11 +2496,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-029",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "현물출자(In-kind Contribution)에 관한 설명으로 옳지 않은 것은?",
     "answer": "4",
@@ -2615,9 +2530,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-030",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "무형자산에 해당하지 않는 것은?",
     "answer": "4",
@@ -2651,10 +2564,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-031",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "특허 가치평가에서 수익접근법의 특징으로 옳지 않은 것은?",
     "answer": "4",
@@ -2688,9 +2598,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-032",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "산업재산권에는 특허권, 실용신안권, 디자인권, 상표권이 포함된다.",
     "answer": "O",
@@ -2702,10 +2610,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-033",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "IP 금융의 주요 형태가 아닌 것은?",
     "answer": "4",
@@ -2739,10 +2644,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-034",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "TCB 기술평가 등급에 관한 설명으로 옳은 것은?",
     "answer": "1",
@@ -2776,10 +2678,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-035",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "현물출자(In-kind Contribution)의 절차로 옳은 것은?",
     "answer": "2",
@@ -2813,9 +2712,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-036",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "FTO(Freedom to Operate) 분석에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -2849,9 +2746,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-037",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "미국은 특허 등록 후에도 청구항의 수정이 가능한 Amendment 제도를 운영하고 있다.",
     "answer": "O",
@@ -2863,10 +2758,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-038",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "기술특례상장 이후 자본잠식 관련 퇴출 기준으로 옳은 것은?",
     "answer": "2",
@@ -2900,9 +2792,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-039",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "SLB(Sales and License Back) 구조에 관한 설명으로 옳은 것은?",
     "answer": "1",
@@ -2936,10 +2826,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-040",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "미국 VC 심사역 대상 설문조사에서 투자 의사결정 시 가장 중요하게 고려하는 요소는 무엇인가?",
     "answer": "4",
@@ -2973,10 +2860,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-041",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "다음 중 딜 소싱 채널의 퀄리티 측면에서 가장 우수한 것으로 평가되는 채널은?",
     "answer": "3",
@@ -3010,11 +2894,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-042",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "AC, VC, CVC의 구조적 차이로 옳지 않은 것은?",
     "answer": "3",
@@ -3048,9 +2928,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-043",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "VC에게 가장 기본이 되는 역량은 분석 능력이지만, 이에 더해 태도와 이 업에 맞는 성향이 함께 요구된다.",
     "answer": "O",
@@ -3062,10 +2940,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-044",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "벤처캐피탈 펀드의 일반적인 존속 기간으로 가장 적절한 것은?",
     "answer": "3",
@@ -3099,9 +2974,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-045",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "다음 중 Term Sheet에서 일반적으로 가장 양보하기 어려운 조항은?",
     "answer": "3",
@@ -3135,10 +3008,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-046",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "B2C 플랫폼이나 패션 분야에서는 해당 분야 전문가의 의견이 가장 신뢰할 만한 투자 판단 근거가 된다.",
     "answer": "X",
@@ -3150,10 +3020,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-047",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "한국에서 일반적인 창업부터 IPO까지 소요 기간에 가장 가까운 것은?",
     "answer": "3",
@@ -3187,10 +3054,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-048",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "Theranos 사례에서 보듯, 유명 정치인과 군 장성으로 구성된 이사회는 바이오텍 기업의 신뢰도를 높이는 핵심 요소이다.",
     "answer": "X",
@@ -3202,9 +3066,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-049",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "미국 벤처캐피탈리스트의 업무 시간 중 가장 큰 비중을 차지하는 활동은?",
     "answer": "3",
@@ -3238,9 +3100,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-050",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "다음 중 딥테크 투자자가 CVC 투자 의사결정 시 특히 중요하게 고려하는 요소로 가장 적절한 것은?",
     "answer": "2",
@@ -3274,10 +3134,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-051",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "TPP(Target Product Profile)는 신약 개발 기업의 기술 이전 계약서 양식 명칭이다.",
     "answer": "X",
@@ -3289,10 +3146,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-052",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "데이터드리븐 벤처캐피탈의 최근 딜 소싱 기법으로 가장 적절하지 않은 것은?",
     "answer": "4",
@@ -3326,11 +3180,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-053",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "투자 실무에서 등기부등본 확인에 관한 설명으로 옳지 않은 것은?",
     "answer": "3",
@@ -3364,10 +3214,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-054",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "hard",
     "prompt": "벤처투자조합의 법적 성격과 소송 당사자 능력에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -3401,11 +3248,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-055",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "신주발행무효확인의 소의 제척기간에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -3439,10 +3282,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-056",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "대한민국에서 권리 의무의 주체가 될 수 있는 자에 해당하지 않는 것은?",
     "answer": "3",
@@ -3476,9 +3316,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-057",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "상법상 회사의 종류에 해당하지 않는 것은?",
     "answer": "3",
@@ -3512,10 +3350,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-058",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "주식회사의 3대 원칙에 해당하지 않는 것은?",
     "answer": "4",
@@ -3549,9 +3384,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-059",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "신주 발행일로부터 6개월이 경과하면 실체적 하자가 있더라도 신주 발행은 유효하게 확정된다.",
     "answer": "O",
@@ -3563,10 +3396,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-060",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "벤처투자조합의 소송 당사자 지정 방법에 관한 설명으로 옳지 않은 것은?",
     "answer": "4",
@@ -3600,9 +3430,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-061",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "소규모 회사의 특례에 해당하지 않는 것은?",
     "answer": "4",
@@ -3636,9 +3464,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-062",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "위임과 신탁의 차이에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -3672,10 +3498,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-063",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "2024년 12월 30일 법 개정 사항에 관한 설명으로 옳은 것은?",
     "answer": "1",
@@ -3709,10 +3532,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-064",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "제3자 배정 방식으로 신주를 발행하려는 경우 반드시 확인하여야 할 사항으로 옳은 것은?",
     "answer": "2",
@@ -3746,10 +3566,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-065",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "가장납입의 법적 책임에 관한 설명으로 옳은 것은?",
     "answer": "3",
@@ -3783,10 +3600,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-066",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "주식회사의 등기부에 기재된 사항이 실제 계약 내용 또는 실체적 사실과 다르게 잘못 기재되었을 때 이를 바로잡는 등기를 무엇이라 하는가?",
     "answer": "3",
@@ -3820,11 +3634,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-067",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "hard",
     "prompt": "다음 중 감자에 관한 설명으로 옳지 않은 것은?",
     "answer": "4",
@@ -3858,11 +3668,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-068",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "hard",
     "prompt": "자본금 5억원, 이사 수 2인인 주식회사에서 신주를 발행하려 할 때 결의 기관으로 옳은 것은? (정관에 별도 규정 없음)",
     "answer": "3",
@@ -3896,9 +3702,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-069",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "감자는 배당 가능한 이익이 없어도 시행할 수 있으므로, 투자자가 RCPS를 회수할 때 감자가 상환보다 유리한 경우가 존재한다.",
     "answer": "O",
@@ -3910,9 +3714,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-070",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "다음 중 차등감자에 관한 설명으로 가장 적절한 것은?",
     "answer": "2",
@@ -3946,10 +3748,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-071",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "상환주식은 회사의 배당 가능한 이익이 없는 경우에도 상환권 행사가 유효하다.",
     "answer": "X",
@@ -3961,10 +3760,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-072",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "감자와 상환의 차이에 관한 설명으로 옳지 않은 것은?",
     "answer": "4",
@@ -3998,9 +3794,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-073",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "주식회사의 결정적 장점은 주주가 투자한 금액을 초과한 범위까지 회사 채무에 대해 책임을 지지 않는다는 점이다.",
     "answer": "O",
@@ -4012,10 +3806,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-074",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "계산형"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "액면가 500원인 주식을 50,000원에 발행할 때 자본금 증가액 산정 기준은?",
     "answer": "2",
@@ -4049,10 +3840,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-075",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "상환전환우선주(RCPS)의 전환 비율에 관한 설명 중 옳은 것은?",
     "answer": "3",
@@ -4086,10 +3874,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-076",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "K-IFRS에서는 주주에게 상환권이 있는 상환주식을 자본으로 인식한다.",
     "answer": "X",
@@ -4101,10 +3886,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-077",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "자본금 15억원인 회사에 기관투자자가 주금을 납입하는 경우 필요한 등기 요건은?",
     "answer": "2",
@@ -4138,10 +3920,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-078",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "다음 중 제3자 배정으로 신주를 발행하기 위한 요건으로 옳지 않은 것은?",
     "answer": "4",
@@ -4175,10 +3954,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-079",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "벤처투자조합의 성립일은 언제인가?",
     "answer": "4",
@@ -4212,9 +3988,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-080",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "업무집행조합원(GP)의 자산운용 권한은 대표펀드매니저 퇴사, 핵심 운용인력 결원, 중대한 의무 위반 등이 있으면 조합원 총회 특별결의로 중단될 수 있다.",
     "answer": "O",
@@ -4226,9 +4000,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-081",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "벤처투자조합 운용인력의 겸직은 어떤 기준으로 판단하는가?",
     "answer": "3",
@@ -4262,9 +4034,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-082",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "벤처투자조합 규약을 변경하려면 어떤 절차를 거쳐야 하는가?",
     "answer": "3",
@@ -4298,10 +4068,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-083",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "조합이 보유한 미투자자산을 상장증권 등에 운용하더라도 그 운용분에 대해서는 관리보수가 지급되지 않는다.",
     "answer": "O",
@@ -4313,9 +4080,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-084",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "업무집행조합원은 조합재산을 자신의 고유재산 또는 다른 조합의 재산과 명확히 구분하여 관리해야 한다.",
     "answer": "O",
@@ -4327,10 +4092,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-085",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "일반적인 조합규약상 조합재산은 담보 제공이 허용된다.",
     "answer": "X",
@@ -4342,10 +4104,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-086",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "조합규약은 피투자기업의 투자금 사용처에 대한 실사 의무를 규정하며, 투자 집행 후 1년 이내 소진율이 70% 미만이면 재실사를 진행한다.",
     "answer": "O",
@@ -4357,9 +4116,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-087",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "대표펀드매니저 등 핵심 운용인력 변경 시 일반적인 조합규약은 특별결의에 따라 당해연도 관리보수를 일정 비율 내에서 삭감할 수 있도록 규정하고 있다.",
     "answer": "O",
@@ -4371,10 +4128,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-088",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "상환주식의 발행 및 상환에 관한 설명으로 옳은 것은?",
     "answer": "2",
@@ -4408,10 +4162,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-089",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "상환주식에서 회사가 상환권을 행사할 수 있도록 설정된 경우, 투자자는 회사의 일방적 상환 결정에 의해 기대한 투자 수익을 실현하지 못할 위험이 있다.",
     "answer": "O",
@@ -4423,10 +4174,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-090",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "출제최상위"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "주주평등의 원칙에 관한 설명으로 가장 적절한 것은?",
     "answer": "1",
@@ -4460,9 +4208,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-091",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "2014년 상법 개정으로 무기명주식 제도가 폐지되어, 현재 한국에서 발행 가능한 주식은 모두 기명주식이다.",
     "answer": "O",
@@ -4474,10 +4220,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-092",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "한국에서 주식회사를 설립할 때 가능한 최저 자본금은?",
     "answer": "4",
@@ -4511,10 +4254,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-093",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "벤처기업의 복수의결권 제도는 실무에서 대부분의 투자 대상 기업이 활용할 수 있다.",
     "answer": "X",
@@ -4526,10 +4266,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-094",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "실무형"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "전환주식의 리픽싱(Re-fixing) 규정에 관한 설명으로 가장 적절한 것은?",
     "answer": "2",
@@ -4563,10 +4300,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-095",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "회사의 회생 절차에서 주주는 회생담보권자 및 회생채권자보다 우선하여 보호받는다.",
     "answer": "X",
@@ -4578,10 +4312,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-096",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "회사의 해산, 청산, 회생, 파산에 관한 설명으로 옳지 않은 것은?",
     "answer": "4",
@@ -4615,10 +4346,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-097",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "숫자암기"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "2025년 3월 상법 개정으로 상장·비상장 불문 자기주식은 원칙적으로 취득 후 1년 이내에 소각해야 한다.",
     "answer": "O",
@@ -4630,9 +4358,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-098",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "easy",
     "prompt": "주식 분할(액면 분할)에 관한 설명으로 옳은 것은?",
     "answer": "3",
@@ -4666,10 +4392,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-099",
     "roundId": "round-5",
     "type": "ox",
-    "tags": [
-      "이후영정리",
-      "함정주의"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "실질 주주와 명의 주주가 다른 경우, 회사가 실질 주주의 존재를 알고 있었다면 명의 주주에게만 주주권을 인정한 것은 책임 원인이 된다.",
     "answer": "X",
@@ -4681,9 +4404,7 @@ export const quizQuestions = [
     "linkedCardId": "IY-100",
     "roundId": "round-5",
     "type": "single",
-    "tags": [
-      "이후영정리"
-    ],
+    "tags": [],
     "difficulty": "medium",
     "prompt": "소수주주권에 관한 설명으로 가장 적절한 것은?",
     "answer": "2",
