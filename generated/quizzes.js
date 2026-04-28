@@ -181,6 +181,23 @@ export const quizRounds = [
       "Q5-099",
       "Q5-100"
     ]
+  },
+  {
+    "id": "round-6",
+    "title": "ROUND-6 | 4주차",
+    "questionIds": [
+      "Q6-01",
+      "Q6-02",
+      "Q6-03",
+      "Q6-04",
+      "Q6-05",
+      "Q6-06",
+      "Q6-07",
+      "Q6-08",
+      "Q6-09",
+      "Q6-10",
+      "Q6-11"
+    ]
   }
 ];
 
@@ -4429,6 +4446,402 @@ export const quizQuestions = [
       {
         "id": "4",
         "text": "소수주주권은 반드시 단독으로만 행사할 수 있다",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-01",
+    "linkedCardId": "D-01",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "주주총회의 소집에 관한 다음 설명 중 옳지 않은 것은?",
+    "answer": "3",
+    "explanation": "반대 주주가 한 명이라도 있으면 소집절차 생략 불가 (전원 동의 필요)",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "주주총회의 소집은 이사회의 결의에 의한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주주총회 소집의 집행은 대표이사가 행한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "주주총회 결의 요건을 확보할 수 있는 주주들의 동의가 있으면, 설령 이에 반대하는 주주가 있더라도 주주총회 소집 절차를 생략할 수 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "주주총회 소집통지 시 회의의 목적사항은 주주가 무엇을 결의하게 되는지 알 수 있을 정도로 기재하여야 한다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-02",
+    "linkedCardId": "D-02",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "주주총회의 결의 및 의결권에 관한 다음 설명 중 옳지 않은 것은?",
+    "answer": "1",
+    "explanation": "보통결의는 출석한 주주 의결권의 과반수 + 발행주식총수의 1/4 이상 (상법 368조 1항)",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "보통결의 요건은 의결권 있는 주주의 과반수가 출석하여 출석한 주주의 과반수 찬성에 의한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "특별결의는 출석한 주주의 의결권의 3분의 2 이상의 수와 발행주식 총수의 3분의 1 이상의 수로 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "주주는 대리인으로 하여금 그 의결권을 행사하게 할 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "총회의 결의에 관하여 특별한 이해관계가 있는 자의 의결권은 제한된다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-03",
+    "linkedCardId": "D-03",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "이사 및 감사에 관한 다음 설명 중 옳지 않은 것은?",
+    "answer": "4",
+    "explanation": "10%가 아니라 3% (상법 409조 2항)",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "원칙적으로 주식회사의 이사는 3명 이상을 선임하여야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "자본금 10억 원 미만인 소규모 회사는 예외적으로 이사를 한 명 또는 두 명만 둘 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "자본금 10억 원 미만인 소규모 회사는 감사를 두지 않을 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "의결권 없는 주식을 제외한 발행주식 총수의 10% 이상 주식을 보유한 주주는 초과하는 주식에 관하여 감사의 선임에 관하여 의결권을 행사하지 못한다.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-04",
+    "linkedCardId": "D-04",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "상법 제398조는 이사 등과 회사 간의 거래(자기거래)를 규제하고 있다. 다음 중 자기거래의 당사자로 인정되지 않는 자는?",
+    "answer": "4",
+    "explanation": "단순 근속 임직원(이사·주요주주·특수관계 회사가 아닌 자)은 상법 제398조의 자기거래 규제 대상이 아님",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "해당 회사의 상법상 이사",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "해당 회사가 발행한 주식을 10% 이상 보유한 주요주주",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "해당 회사의 상법상 이사가 지분을 100% 보유한 제3의 회사",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "해당 회사에서 10년간 근속한 핵심 인력",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-05",
+    "linkedCardId": "D-05",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "hard",
+    "prompt": "이사의 책임에 관한 다음 설명 중 옳지 않은 것은?",
+    "answer": "3",
+    "explanation": "이사는 제3자에 대해서도 손해배상 책임을 질 수 있음 (상법 401조)",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "이사가 고의 또는 과실로 법령 또는 정관을 위반한 행위를 하거나 그 임무를 게을리한 경우에는 회사에 대하여 손해배상 책임이 인정될 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "법령 또는 정관에 위반한 이사회 결의에 의해 회사가 손해를 입은 경우에는 그 결의에 찬성한 이사도 손해배상 책임이 인정될 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "이사는 회사에 대하여만 책임을 부담하고 제3자에 대해서는 어떠한 손해에 대해서도 책임을 지지 않는다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "회사가 이사의 법령 또는 정관 위반 행위에 대하여 책임을 묻지 않고 있으면, 발행주식 총수의 1% 이상 보유한 주주는 소수주주권으로서 회사에 대해 그 이사의 책임을 추궁할 소의 제기를 청구할 수 있고, 30일 내에 제기하지 않으면 주주가 회사를 위해 그 이사를 상대로 소를 제기할 수 있다(대표소송).",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-06",
+    "linkedCardId": "D-06",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "easy",
+    "prompt": "회사의 합병에 대한 설명 중 틀린 것은?",
+    "answer": "2",
+    "explanation": "합병은 청산 절차가 불필요하다.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "합병은 최소한 한 개 이상의 회사의 법인격을 소멸시킨다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "합병을 하는 경우에는 청산 절차가 반드시 필요하다.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "합병은 경영의 합리화와 영업 비용의 절감 등의 목적으로 이루어진다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "합병은 채권자 보호 절차가 필요하다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-07",
+    "linkedCardId": "D-07",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "회사의 분할에 대한 설명 중 틀린 것은?",
+    "answer": "3",
+    "explanation": "단순 분할은 법률에 규정되어 있지 않고, 분할 합병만 있다.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "회사의 물적 분할이란 분할 전 회사가 신설하는 회사의 주식을 스스로 취득하는 것을 의미한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "단순 분할의 경우 주식의 발행과 임원의 선임은 분할 계획서에 따라 이루어진다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "단순 분할의 경우에도 반대 주주의 주식매수청구권은 법률에 규정되어 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "회사 분할의 경우에도 채권자 보호 절차가 필요하다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-08",
+    "linkedCardId": "D-08",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "다음 중 회사의 주식의 포괄적 교환에 대한 설명 중 틀린 것은?",
+    "answer": "4",
+    "explanation": "주식의 포괄적 교환은 \"주주총회 특별결의\"로 진행한다.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "주식의 포괄적 교환은 완전모회사가 되는 회사와 완전자회사가 되는 회사 사이에서 이루어진다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주식의 포괄적 교환은 회사 지배구조의 재편을 위한 방법으로 활용될 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "주식의 포괄적 교환은 채권자 보호 절차가 요구되지 않는다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "주식의 포괄적 교환은 주주총회 일반결의로 진행한다.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-09",
+    "linkedCardId": "D-09",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "easy",
+    "prompt": "다음 중 주식회사의 3요소가 아닌 것은?",
+    "answer": "4",
+    "explanation": "주주",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "자본금",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주주의 유한책임",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "주식",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "주주",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-10",
+    "linkedCardId": "D-10",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "신주 발행 및 사채에 대해 틀린 것은?",
+    "answer": "4",
+    "explanation": "우리나라 상법은 투자를 권장한다는 의미에서 제3자 배정 유상증자를 원칙으로 하고 있다?",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "신주 발행 가격은 액면가랑 일치하지 않을 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "신주 발행 시 발행 주식 수와 자본금이 증가하게 되므로 변경 등기를 해야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "제3자에 대한 유상증자를 실시하면서 발행 가액이 시가에 비해서 현저히 낮으면 주주의 이익이 침해되어 이사의 책임 추궁, 신주 발행 유지 청구, 신주 발행 무효의 소가 가능하다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "우리나라 상법은 투자를 권장한다는 의미에서 제3자 배정 유상증자를 원칙으로 하고 있다.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-11",
+    "linkedCardId": "D-11",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "전환사채 관련해 틀린 것은?",
+    "answer": "1",
+    "explanation": "사채에는 반드시 이자를 붙여야 된다",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "사채에는 반드시 이자를 붙여야 된다.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "전환사채는 발행하는 회사의 주식으로 전환할 수 있는 권리가 인정되는 사채이다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "전환사채는 이사회가 발행을 결정하되 제3자한테 발행하기 위해서는 정관의 근거를 두거나 주주총회 특별결의를 거쳐야 합니다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "교환사채는 신주 발행을 수반하지 않기 때문에 주주의 지분적 이해와 무관하여 정관의 별도 규정을 요하지 않고 이사회 의결만으로 발행할 수 있다.",
         "isCorrect": false
       }
     ]

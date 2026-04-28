@@ -116,6 +116,92 @@
   - `styles.css`
   - `app.js`
 
+## 2026-04-28 Structure Audit
+
+이번 세션에서 `1회차 시험 내부 ROUND`와 `2회차 시험용 신규 ROUND`가 같은 `generated/quizzes.js` 풀 안에 섞이면서 문맥 혼선이 발생했다.
+
+현재 실제 동작 구조는 아래와 같음.
+
+- 원본 문제 소스:
+  - `content/quizzes/round-1.md` ~ `round-5.md`: 1회차 시험용 기존 라운드
+  - `content/quizzes/round-6.md`: 2회차 시험의 첫 라운드
+- 빌드 스크립트:
+  - `scripts/build-content.js`
+  - `content/quizzes/*.md` 전부를 읽어서 하나의 `generated/quizzes.js`로 합침
+- 라운드 ID 기준:
+  - **파일명**이 라운드 ID가 됨
+  - 예: `round-6.md` -> generated 상 `id: "round-6"`
+  - 파일 내부 첫 줄 `# ROUND-6 | 4주차`는 **UI에 노출되는 제목**일 뿐, 라우팅 키가 아님
+- 1회차 페이지:
+  - `round-1/index.html`
+  - `round-1/app.js`
+  - 현재는 `generated/quizzes.js` 전체를 읽되, 화면에선 `round-1` ~ `round-5`만 노출하도록 필터링
+- 2회차 페이지:
+  - `round-2/index.html`
+  - `round-2/app.js`
+  - `window.JAMES_LINGO_PAGE.allowedRoundIds = ["round-6"]`로 고정
+  - 즉 2회차 페이지는 generated 전체 중 `round-6`만 읽음
+- 홈 화면:
+  - 루트 `app.js`
+  - `1회차`, `2회차`, `3회차` 카드와 진입 링크를 하드코딩
+
+### 현재 빌드 스냅샷
+
+- `generated/build-summary.json` 기준:
+  - flashcards: `57`
+  - quiz rounds: `6`
+  - quiz questions: `164`
+
+### 혼선이 발생한 근본 원인
+
+1. **파일명 라운드 ID**와 **화면에 보이는 ROUND 제목**이 서로 다른 역할인데, 세션 중 이 둘이 계속 섞여 해석됨
+2. `generated/quizzes.js`가 모든 라운드를 한 파일로 합치므로, 개별 시험 페이지에서 별도 필터링을 하지 않으면 다른 시험 라운드가 섞여 보임
+3. `round-1/app.js`와 `round-2/app.js`가 거의 동일한 앱 코드인데 파일이 복제되어 있어, 한쪽만 수정하면 다른 쪽과 동작이 쉽게 어긋남
+4. 홈 화면 진입 구조가 `index.html/app.js`에 하드코딩되어 있어, 회차가 열릴 때마다 수동 수정 포인트가 많음
+
+### 앞으로 문제 피딩 받을 때 반드시 지킬 운영 규칙
+
+1. 사용자가 주는 신규 시험 문제는 **새 파일**로 추가한다
+   - 다음 라운드는 `content/quizzes/round-7.md`, `round-8.md`, `round-9.md` 식으로 누적
+2. 파일명 숫자와 화면 제목 숫자는 분리해서 생각한다
+   - 파일명: 시스템용 고유 ID
+   - 첫 줄 제목: 사람이 보는 표기
+   - 예: `round-7.md` 안에 `# ROUND-7 | 5주차`
+3. `1회차 페이지`에 어떤 라운드가 보일지, `2회차 페이지`에 어떤 라운드가 보일지는 **페이지 필터**로 관리한다
+   - 1회차: `round-1` ~ `round-5`
+   - 2회차: `round-6`부터 시작
+4. 사용자가 `.md`로 문제를 주면 먼저 **어느 시험의 어느 라운드인지**를 결정하고 나서 파일을 만든다
+   - “2회차 첫 라운드”, “2회차 둘째 라운드” 같은 시험 맥락
+   - “ROUND-6”, “ROUND-7” 같은 누적 라운드 맥락
+   - 이 둘을 로그에 명시한 뒤 작업 시작
+
+### 현재 식별된 구조상 위험 요소
+
+- `round-1/app.js` / `round-2/app.js` 앱 코드 복제
+  - 같은 수정이 양쪽에 동시에 필요할 가능성 높음
+- 홈 카드 하드코딩
+  - 회차 종료/오픈 때마다 수동 변경 필요
+- `build-content.js`가 모든 퀴즈 파일을 단일 풀로 합치는 구조
+  - 시험별 분리가 “데이터 구조”가 아니라 “페이지 필터 규칙”에 의존함
+- 태그 체계가 현재는 간소화되었지만, 과거 라운드/카드 원본에는 여전히 여러 태그 문자열이 남아 있음
+  - 빌드/표시 로직과 실제 원본 간 불일치가 다시 생길 수 있음
+
+### 다음 리팩터 권장안
+
+당장 필수는 아니지만, 같은 종류의 back-and-forth를 줄이려면 아래 순서로 개선하는 것이 맞음.
+
+1. `exam-config.js` 같은 공용 설정 파일 도입
+   - 예: `exam-1 => ["round-1","round-2","round-3","round-4","round-5"]`
+   - 예: `exam-2 => ["round-6","round-7", ...]`
+2. `round-1/app.js`, `round-2/app.js`를 하나의 공용 앱으로 통합
+3. 홈 화면 카드 상태도 설정 파일 기반으로 렌더링
+4. `SESSION_LOG.md`에 신규 라운드 추가 시마다
+   - 파일명
+   - 화면 제목
+   - 소속 시험
+   - 문항 수
+   를 남기는 운영 규칙 유지
+
 ## Build / Run
 
 `package.json` 기준 실행 명령:

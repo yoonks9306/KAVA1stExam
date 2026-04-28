@@ -1,7 +1,15 @@
 import { flashcards, quizQuestions, quizRounds } from "../generated/index.js";
 
 const app = document.getElementById("app");
-const examRounds = quizRounds.filter((round) => /^round-[1-5]$/.test(round.id));
+const pageConfig = window.JAMES_LINGO_PAGE ?? {};
+const availableRounds =
+  pageConfig.allowedRoundIds?.length
+    ? quizRounds.filter((round) => pageConfig.allowedRoundIds.includes(round.id))
+    : quizRounds;
+const defaultScreen = pageConfig.defaultScreen ?? (window.location.hash === "#quiz" ? "quiz" : "flashcards");
+const flashcardsEnabled = pageConfig.enableFlashcards !== false;
+const pageLabel = pageConfig.pageLabel ?? "1회차";
+const pageCopy = pageConfig.sidebarCopy ?? "1회차 전용 정리본입니다";
 
 const CATEGORY_LABELS = {
   "vc-law": "VC 법규/조합 구조",
@@ -12,14 +20,12 @@ const CATEGORY_LABELS = {
   industry: "산업별 핵심"
 };
 
-const initialScreen = window.location.hash === "#quiz" ? "quiz" : "flashcards";
-
 const state = {
-  screen: initialScreen,
+  screen: flashcardsEnabled ? (window.location.hash === "#quiz" ? "quiz" : defaultScreen) : "quiz",
   cardCategory: Object.keys(CATEGORY_LABELS)[0],
   cardIndex: 0,
   showAnswer: false,
-  selectedRoundId: examRounds[0]?.id ?? null,
+  selectedRoundId: pageConfig.defaultRoundId ?? availableRounds[0]?.id ?? null,
   quizQuestionIndex: 0,
   selectedAnswer: null,
   quizOrders: {}
@@ -39,9 +45,7 @@ function nlToBr(value) {
 }
 
 function badgeClass(tag) {
-  if (tag === "출제확정" || tag === "언급된 문제") return "pill is-accent";
-  if (tag === "함정주의") return "pill is-danger";
-  if (tag === "계산형") return "pill is-warn";
+  if (tag === "출제확정") return "pill is-accent";
   return "pill";
 }
 
@@ -64,7 +68,7 @@ function shuffleArray(items) {
 }
 
 function getBaseQuestionsForRound(roundId) {
-  const round = examRounds.find((item) => item.id === roundId);
+  const round = availableRounds.find((item) => item.id === roundId);
   if (!round) return [];
   const order = new Map(round.questionIds.map((id, index) => [id, index]));
   return quizQuestions
@@ -101,23 +105,25 @@ function resetQuizState({ reshuffle = false } = {}) {
   state.selectedAnswer = null;
 }
 
-function renderSidebar() {
-  const items = [
-    ["flashcards", "플래시카드"],
-    ["quiz", "모의고사"]
-  ];
+if (pageConfig.forceInitialQuizShuffle !== false && state.selectedRoundId) {
+  resetQuizState({ reshuffle: true });
+}
 
+function renderSidebar() {
+  const items = flashcardsEnabled
+    ? [
+        ["flashcards", "플래시카드"],
+        ["quiz", "모의고사"]
+      ]
+    : [["quiz", "모의고사"]];
   return `
     <aside class="sidebar">
       <a class="home-link" href="../">← 홈으로</a>
       <div class="sidebar-brand">
         <div class="sidebar-logo">JamesLingo</div>
-        <div class="sidebar-copy">1회차 전용 정리본입니다</div>
+        ${pageCopy ? `<div class="sidebar-copy">${escapeHtml(pageCopy)}</div>` : ""}
       </div>
-        <div class="sidebar-stats">
-          <span class="stat-chip">카드 ${flashcards.length}장</span>
-          <span class="stat-chip">문제 ${examRounds.reduce((total, round) => total + round.questionIds.length, 0)}문항</span>
-        </div>
+      ${flashcardsEnabled ? `<div class="sidebar-stats"><span class="stat-chip">카드 ${flashcards.length}장</span></div>` : ""}
       <div class="nav-group">
         ${items
           .map(
@@ -257,7 +263,7 @@ function renderQuiz() {
         <div class="toolbar-left">
           <h2>모의고사</h2>
           <select class="select" data-action="change-round">
-            ${examRounds
+            ${availableRounds
               .map(
                 (round) => `
                   <option value="${round.id}" ${round.id === state.selectedRoundId ? "selected" : ""}>${round.title}</option>
@@ -277,7 +283,6 @@ function renderQuiz() {
         </div>
         <div class="pill-row">
           ${question.tags.map((tag) => `<span class="${badgeClass(tag)}">${tag}</span>`).join("")}
-          ${question.uiHint ? `<span class="pill">${escapeHtml(question.uiHint)}</span>` : ""}
         </div>
         <div class="quiz-prompt">${escapeHtml(question.prompt)}</div>
       </div>
@@ -319,15 +324,17 @@ function render() {
       <div class="main-grid">
         ${renderSidebar()}
         <main>
-          ${state.screen === "flashcards" ? renderFlashcards() : ""}
+          ${flashcardsEnabled && state.screen === "flashcards" ? renderFlashcards() : ""}
           ${state.screen === "quiz" ? renderQuiz() : ""}
         </main>
       </div>
       <nav class="dock">
-        ${[
-          ["flashcards", "카드"],
-          ["quiz", "시험"]
-        ]
+        ${(flashcardsEnabled
+          ? [
+              ["flashcards", "카드"],
+              ["quiz", "시험"]
+            ]
+          : [["quiz", "시험"]])
           .map(
             ([screen, label]) => `
               <button class="dock-button ${state.screen === screen ? "is-active" : ""}" data-action="go-screen" data-screen="${screen}">
@@ -342,7 +349,7 @@ function render() {
 }
 
 function goScreen(screen) {
-  state.screen = screen;
+  state.screen = flashcardsEnabled ? screen : "quiz";
   window.location.hash = screen === "quiz" ? "quiz" : "flashcards";
   render();
 }
