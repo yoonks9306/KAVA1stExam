@@ -196,7 +196,21 @@ export const quizRounds = [
       "Q6-08",
       "Q6-09",
       "Q6-10",
-      "Q6-11"
+      "Q6-11",
+      "Q6-12",
+      "Q6-13",
+      "Q6-14",
+      "Q6-15",
+      "Q6-16",
+      "Q6-17",
+      "Q6-18",
+      "Q6-19",
+      "Q6-20",
+      "Q6-21",
+      "Q6-22",
+      "Q6-23",
+      "Q6-24",
+      "Q6-25"
     ]
   }
 ];
@@ -4843,6 +4857,510 @@ export const quizQuestions = [
         "id": "4",
         "text": "교환사채는 신주 발행을 수반하지 않기 때문에 주주의 지분적 이해와 무관하여 정관의 별도 규정을 요하지 않고 이사회 의결만으로 발행할 수 있다.",
         "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-12",
+    "linkedCardId": "D-12",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합의 투자 제한에 관한 설명으로 옳은 것은?",
+    "answer": "3",
+    "explanation": "① 삼성전자는 상출제 소속 -> 전원 동의로도 불가. ② 해외 기업도 다른 규제 준수 시 투자 가능. ④ \"원칙적\" 제한이므로 예외 존재.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "조합원 전원 동의가 있으면 삼성전자 주식을 취득할 수 있다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "다른 규제를 모두 준수하더라도 해외 기업에는 투자할 수 없다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "다른 규제를 모두 준수한다면 중견기업에 투자할 수 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "비업무용 부동산은 어떠한 경우에도 취득이 불가능하다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-13",
+    "linkedCardId": "D-13",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합이 유가증권시장 또는 코스닥시장 상장법인에 투자할 수 있는 한도는?",
+    "answer": "2",
+    "explanation": "상장법인 투자 한도: 20%, 기권식",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "출자금액의 10%, 기권식",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "출자금액의 20%, 기권식",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "출자금액의 20%, 누적식",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "출자금액의 30%, 기권식",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-14",
+    "linkedCardId": "D-14",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "상호출자제한기업집단에 관한 설명으로 옳지 않은 것은?",
+    "answer": "3",
+    "explanation": "상출제 투자는 전원 동의로도 예외 없이 불가",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "동일 기업집단 소속 국내회사의 직전 연도 자산총액 합계가 GDP의 0.5% 이상인 기업집단을 말한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "2025년 기준 자산총액 11.6조 원 이상이 적용 기준이다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "벤처투자조합은 조합원 전원 동의가 있으면 상출제 소속 계열회사에 예외적으로 투자할 수 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "법률이 허용하는 범위 내 상장사 투자라도 상출제 소속 상장사에는 투자할 수 없다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-15",
+    "linkedCardId": "D-15",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합의 상호출자제한기업집단 관련 투자에 관한 설명으로 옳은 것은?",
+    "answer": "3",
+    "explanation": "① 전원 동의로도 불가. ② 사후 편입은 위반 아님. ④ GP 동의로도 불가.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "상출제 소속 계열회사 투자는 조합원 전원 동의 시 예외적으로 가능하다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "투자 당시 상출제에 속하지 않았으나 투자 이후 급성장이나 M&A로 편입된 경우 법률 위반으로 평가된다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "상장사라도 상출제 소속이라면 투자할 수 없다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "업무집행조합원의 동의만 있으면 상출제 소속 회사에 투자할 수 있다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-16",
+    "linkedCardId": "D-16",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자촉진법상 이해관계자 거래제한 규정에 관한 설명으로 옳지 않은 것은?",
+    "answer": "3",
+    "explanation": "GP 주요주주 기업도 \"원칙적\" 금지 -> 전원 동의 시 예외 가능",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "해당 조합의 주요출자자(10% 이상 출자자)와 계열회사 관계에 있는 회사에는 원칙적으로 투자할 수 없다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주요출자자 계열회사 투자도 조합원 전원 동의를 얻으면 가능하다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "업무집행조합원이 주요주주인 기업에는 어떠한 경우에도 투자할 수 없다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "본 규정은 이해상충 발생 가능성이 있는 유형적 거래를 규제하는 데 입법 취지가 있다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-17",
+    "linkedCardId": "D-17",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합과 업무집행조합원(GP) 간 거래에 관한 설명으로 옳은 것은?",
+    "answer": "3",
+    "explanation": "①②④ 모두 전원 동의 또는 조합 해산 등 사유 시 예외 가능",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "어떠한 절차를 거치더라도 업무집행조합원에게 투자 지분을 매각할 수 없다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "업무집행조합원의 계열사 거래는 이해상충에 해당하므로 어떠한 경우에도 인정되지 않는다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "업무집행조합원이 주요주주인 기업에 대한 투자는 조합원 전원 동의가 있으면 가능하다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "조합 해산 시에도 업무집행조합원에게 지분을 매각하는 것은 절대 허용되지 않는다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-18",
+    "linkedCardId": "D-18",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "이해상충 방지에 관한 설명으로 옳지 않은 것은?",
+    "answer": "4",
+    "explanation": "유형적 금지 대상이 아니어도 사전 조합원 통지 등 방지 절차 필요",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "벤처투자촉진법은 유형적으로 이해상충 가능성이 있는 거래를 규제한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "법에서 유형적으로 금지하지 않더라도 거래 구조상 이해상충 가능성이 있으면 운용사는 방지 절차를 거쳐야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "운용사는 이해상충 발생 가능성이 있는 거래에 대해 최소한 사전에 조합원에게 통지해야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "유형적 금지 대상이 아니라면 거래 구조상 이해상충 가능성이 있어도 별도 절차 없이 진행 가능하다.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-19",
+    "linkedCardId": "D-19",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "다음 중 영위 업종 구분만으로 볼 때 벤처투자조합이 투자할 수 없는 기업은?",
+    "answer": "4",
+    "explanation": "사행시설(도박장)은 업종 자체로 투자 불가",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "골프장·스키장 운영업을 영위하는 A사",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "부동산업을 영위하는 B사",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "숙박 및 음식점업을 영위하는 C사",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "사행시설(도박장) 관리 및 운영업을 영위하는 D사",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": "Q6-20",
+    "linkedCardId": "D-20",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합 투자 제한 규정에서 조합원 전원 동의로도 예외가 인정되지 않는 항목은?",
+    "answer": "3",
+    "explanation": "상출제만 전원 동의로도 예외 없음. 나머지는 모두 예외 가능",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "업무집행조합원의 계열회사 투자",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주요출자자(10% 이상)의 계열회사 투자",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "상호출자제한기업집단 소속 계열회사 투자",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "업무집행조합원이 주요주주인 기업 투자",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-21",
+    "linkedCardId": "D-21",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "벤처투자조합이 A사에 투자할 당시 A사는 상출제기업집단에 속하지 않았으나, 투자 후 A사가 급성장하여 상출제에 편입되었다. 이에 관한 설명으로 옳은 것은?",
+    "answer": "3",
+    "explanation": "투자 당시 기준으로 판단 -> 사후 편입은 위반 아님",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "결과적으로 상출제에 편입되었으므로 법률 위반에 해당한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "조합은 즉시 보유 지분을 매각해야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "투자 당시 기준으로 판단하므로 법률 위반으로 평가되지 않는다.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "조합원 전원 동의를 사후적으로 받아야 위반이 면제된다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-22",
+    "linkedCardId": "D-22",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "hard",
+    "prompt": "벤처투자 업계에서 표준으로 참고하는 한국모태펀드 출자기준 규약이 제한하는 행위, 이른바 \"불공정 투자계약\" 금지사항 중 잘못 기재된 것은?",
+    "answer": "2",
+    "explanation": "보통주는 본래 회수권이 없는 지분증권인데, 여기에 매출·IPO·M&A·투자유치 등 성과 연동 회수권을 붙이는 건 사실상 확정 회수 보장 -> 보통주의 본질에 반하고 다른 보통주주와의 형평을 깨뜨리므로 불공정 투자계약.",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "보통주 투자 시 매출 및 영업이익, 기업공개 및 합병, 투자유치 등의 달성 여부 또는 기간 설정을 조건으로 상환권 또는 매수청구권 등 투자금 회수 권리를 부여받는 행위. 단, 법에서 보장하는 상환권 또는 매수청구권의 경우 예외.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "전환사채 투자 시 매출 및 영업이익, 기업공개 및 합병, 투자유치 등의 달성 여부 또는 기간 설정을 조건으로 상환권 또는 매수청구권 등 투자금 회수 권리를 부여받는 행위. 단, 법에서 보장하는 상환권 또는 매수청구권의 경우 예외.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "보통주 투자에 본래 회수권이 없는 지분증권인데, 여기에 매출·IPO·M&A·투자유치 등 성과 연동 회수권을 붙이는 것은 사실상 확정 회수 보장이라는 설명.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "보통주 투자에 성과 연동 회수권을 붙이는 것은 보통주의 본질에 반하고 다른 보통주주와의 형평을 깨뜨릴 수 있다는 설명.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-23",
+    "linkedCardId": "D-23",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "medium",
+    "prompt": "한국모태펀드 출자기준 규약상, 투자계약 체결 시 투자대상기업 의무 불이행에 따른 제재 조건 관련 이자율은 법정이율 이내로 정하라고 되어 있다. 이때 법정이율은?",
+    "answer": "3",
+    "explanation": "한국모태펀드 표준규약상 법정이율은 소송촉진법상 12% 기준. 참고: 민법 제379조 5%(민사), 상법 제54조 6%(상사), 소송촉진법 12%, 이자제한법 최고 20%",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "5%",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "6%",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "12%",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "15%",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-24",
+    "linkedCardId": "D-24",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "hard",
+    "prompt": "벤처투자 계약서의 구조와 주주평등의 원칙에 관한 설명 중 틀린 것은?",
+    "answer": "2",
+    "explanation": "주주평등의 원칙은 회사-투자자 약정 부분에만 적용됨. 이해관계인-투자자 약정 부분은 주주평등의 원칙과 무관",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "벤처투자 계약서는 회사-투자자 사이의 약정 부분과 이해관계인-투자자 사이의 약정 부분으로 나뉜다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "주주평등의 원칙은 회사-투자자 약정 부분과 이해관계인-투자자 약정 부분을 가리지 않고 적용된다.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "2023년 대법원은 투자자 보호 약정으로서 사전동의권 약정을 검토하면서, 차등적 취급을 정당화할 수 있는 특별한 사정이 있는 경우 허용될 수 있다고 판시했다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "주주에게 투하자본의 회수를 절대적으로 보장하는 취지의 금전 지급 약정은 강행법규 위반으로서 무효이다.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "Q6-25",
+    "linkedCardId": "D-25",
+    "roundId": "round-6",
+    "type": "single",
+    "tags": [
+      "출제확정"
+    ],
+    "difficulty": "hard",
+    "prompt": "벤처투자 계약서 중 이해관계인과 투자자 사이의 약정 부분에 관한 법리 설명 중 틀린 것은?",
+    "answer": "4",
+    "explanation": "최근 법원은 위반의 경중을 따져서 판단함. \"예외 없이 인정\"은 틀림",
+    "uiHint": "",
+    "options": [
+      {
+        "id": "1",
+        "text": "이해관계인-투자자 약정 부분은 주주평등의 원칙과 무관하다.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "이해관계인-투자자 약정 부분에는 사적 자치의 원칙(사법상의 법률관계는 개인의 자유로운 의사에 따라 자기 책임 하에 규율되는 것이 이상적이며, 사적 생활의 영역에는 원칙적으로 국가가 개입·간섭하지 않는다는 근대 사법의 원칙)이 적용된다.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "이해관계인-투자자 약정 부분은 강행법규 위반인 경우가 아니라면 원칙적으로 유효하게 평가된다.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "최근 법원은 벤처투자 계약서 위반의 경중을 따지지 않고, 문언적으로 계약 위반에 해당하면 그 위반 책임을 예외 없이 인정하고 있다.",
+        "isCorrect": true
       }
     ]
   }
